@@ -1,0 +1,35 @@
+{
+    "name": "mern-template",
+    "version": "1.0.0",
+    "description": "Template for MERN project",
+    "private": true,
+    "scripts": {
+        "start": "cross-env NODE_ENV=production npm run server:start",
+        "server:start": "npm run start --prefix server",
+        "dev": "cross-env NODE_ENV=development npm run client:server",
+        "client:server": "concurrently \"npm run server\" \"npm run client\"",
+        "client": "npm run start --prefix client",
+        "server": "npm run dev --prefix server",
+        "install:server": "npm install --prefix server",
+        "install:client": "npm install --prefix client",
+        "build": "npm run build --prefix client"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lehaisanya/mern-template.git"
+    },
+    "keywords": [
+        "mern",
+        "mongodb",
+        "express",
+        "react",
+        "nodejs"
+    ],
+    "author": "lehaisanya <lehaisanya@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^5.3.0",
+        "cross-env": "^7.0.3",
+        "nodemon": "^2.0.6"
+    }
+}
