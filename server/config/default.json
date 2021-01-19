@@ -3,5 +3,6 @@
     "baseUrl": "http://localhost:5000",
     "mongoUri": "mongodb://localhost:27017/myDatabase",
     "apiKey": "API KEY",
-    "sessionSecret": "session secret"
+    "sessionSecret": "session secret",
+    "debug": true
 }

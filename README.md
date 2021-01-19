@@ -27,7 +27,8 @@ $ npm run dev
 - В продакшині
   
 ```bash
-$ npm build
+$ npm build:client
+$ npm build:server
 $ npm start
 ```
 
@@ -53,7 +54,7 @@ $ npm run server
 - [React](https://reactjs.org) - Javascript бібліотека для ктієнтської частини
 - [MongoDB](https://www.mongodb.com) - База даних
 - [Ant Design](https://ant.design) - Бібліотека для React з уже написаними компонентами
-
+- [Typescript](www.typescriptlang.org) - Надстройка для js з типізацією
 ## Автор
 
 ### **lehaisanya**

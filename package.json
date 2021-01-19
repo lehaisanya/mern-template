@@ -12,7 +12,8 @@
         "server": "npm run dev --prefix server",
         "install:server": "npm install --prefix server",
         "install:client": "npm install --prefix client",
-        "build": "npm run build --prefix client"
+        "build:client": "npm run build --prefix client",
+        "build:server": "npm run build --prefix server"
     },
     "repository": {
         "type": "git",
@@ -29,7 +30,6 @@
     "license": "ISC",
     "devDependencies": {
         "concurrently": "^5.3.0",
-        "cross-env": "^7.0.3",
-        "nodemon": "^2.0.6"
+        "cross-env": "^7.0.3"
     }
 }
